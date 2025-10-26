@@ -7,19 +7,19 @@ height = 1000
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Jet Game')
 clock = pygame.time.Clock()
-player = pygame.image.load('imgs/rafale.png')
+player = pygame.image.load('rafale.png')
 player = pygame.transform.scale(player , (128,128))
-sky =  pygame.image.load('imgs/sky2.jpg')
+sky =  pygame.image.load('sky2.jpg')
 sky = pygame.transform.scale(sky, (width , height))
 x = width / 2 - 256
 y = height -128
 speed = 15
-enemy  = pygame.image.load('imgs/pl15.png')
+enemy  = pygame.image.load('pl15.png')
 enemy = pygame.transform.scale(enemy , (64,64))
 m = width - 134
 n = height - 342
 espeed = 25
-crash = pygame.mixer.Sound('imgs/hit.wav')
+crash = pygame.mixer.Sound('hit.wav')
 font = pygame.font.SysFont(None , 48)
 score = 0
 # Game loop
@@ -74,3 +74,4 @@ while running:
     clock.tick(60)
 pygame.quit()
 sys.exit()
+
