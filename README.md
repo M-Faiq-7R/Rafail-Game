@@ -1,60 +1,65 @@
-✈️ Jet Game — Pygame
+# ✈️ Jet Game
 
-A simple yet fun airplane dodging game built using Python and Pygame.
-Control your jet, avoid enemy aircraft, and keep increasing your score as long as you survive!
+A fun and simple **2D jet dodging game** made using **Python** and **Pygame**.
 
-🎮 Gameplay
+---
 
-You control a fighter jet at the bottom of the screen.
+## 🎯 Objective
+Survive as long as possible by avoiding enemy jets.  
+Your **score increases** each time the enemy resets its position.
 
-Enemy jets fly across the screen from right to left.
+---
 
-Avoid collision — if you collide, the game ends.
+## 🕹️ Controls
 
-Your score increases each time an enemy plane passes off the screen.
+| Key          | Action        |
+|--------------|--------------|
+| ⬆️ Arrow Up   | Move Up      |
+| ⬇️ Arrow Down | Move Down    |
+| ⬅️ Arrow Left | Move Left    |
+| ➡️ Arrow Right| Move Right   |
 
-🕹️ Controls
-Key	Action
-⬆ Arrow Up	Move Up
-⬇ Arrow Down	Move Down
-⬅ Arrow Left	Move Left
-➡ Arrow Right	Move Right
-📂 Project Structure
+---
+
+## 📁 Project Structure
+```
 Jet Game/
 │
 ├── Jet.py
 └── imgs/
-    ├── rafale.png       # Player jet image
-    ├── pl15.png         # Enemy jet image
-    ├── sky2.jpg         # Background image
-    └── hit.wav          # Collision sound
+    ├── rafale.png   (Player Jet)
+    ├── pl15.png     (Enemy Jet)
+    ├── sky2.jpg     (Background)
+    └── hit.wav      (Collision Sound)
+```
 
+> Make sure the **imgs** folder is placed in the same directory as **Jet.py**.
 
-Make sure the imgs folder is in the same directory as Jet.py.
+---
 
-⚙️ Installation & Run
-1. Install Python (if not already installed)
+## ⚙️ Installation & Running
 
-https://www.python.org/downloads/
-
-2. Install Pygame
+1. Install Python from: https://python.org/downloads  
+2. Install Pygame:
+```
 pip install pygame
-
-3. Run the Game
+```
+3. Run the game:
+```
 python Jet.py
+```
 
+---
 
-⭐ Future Improvements (Ideas)
+## 🚀 Future Enhancements
+- Add shooting system + bullets
+- More enemy jets / waves
+- Better animations & sound effects
+- Main menu + Restart screen
 
-Add multiple enemy jets
+---
 
-Add shooting system (player bullets)
+## 👨‍💻 Author
+**Your Name / GitHub Username**  
+Feel free to fork & improve!
 
-Add health bar / lives
-
-Add menu screen & game restart
-
-💡 Author
-
-M-Faiq-7R
-Feel free to fork, modify, and improve the game!
