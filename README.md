@@ -60,6 +60,6 @@ python Jet.py
 ---
 
 ## 👨‍💻 Author
-**Your Name / GitHub Username**  
+**M-Faiq-7R**  
 Feel free to fork & improve!
 
